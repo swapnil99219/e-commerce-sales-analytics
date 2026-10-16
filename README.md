@@ -1,4 +1,4 @@
-<img width="998" height="666" alt="Executive Overview" src="https://github.com/user-attachments/assets/efa6f5de-b8f2-4f27-9c4d-af2fc7ecf3da" /># E-Commerce Sales Analytics | Power BI & SQL
+Analytics | Power BI & SQL
 
 ## Project Overview
 Developed an interactive E-Commerce Sales Analytics dashboard using Power BI and SQL to analyze sales performance, customer behavior, product performance, and order trends.
