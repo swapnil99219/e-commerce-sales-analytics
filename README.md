@@ -1,164 +1,64 @@
-E-Commerce Sales Analytics Dashboard
+# E-Commerce Sales Analytics Dashboard
 
-An interactive E-Commerce Sales Analytics dashboard built using Power BI, DAX, Power Query, and SQL to analyze sales performance, customer behavior, product performance, and order trends.
+An end-to-end portfolio project demonstrating SQL analysis and an interactive Power BI dashboard for sales, products, customers, and order performance.
 
-📌 Project Overview
+## Project at a glance
 
-This project focuses on analyzing e-commerce business data to identify sales trends, understand customer purchasing behavior, evaluate product performance, and monitor order statuses.
+- **Tools:** MySQL, Power BI, DAX, Power Query
+- **Dashboard pages:** Executive Overview, Product Analysis, Customer Analysis, Order Analysis
+- **Analysis:** Revenue, orders, average order value, cancellation metrics, product performance, customer activity, and sales trends
+- **Dataset:** Sample project dataset; the README describes 2,000 orders, 90 customers, 38 products, and 4,967 order items. Recheck these counts if the source data changes.
 
-The dashboard provides interactive visualizations and key performance indicators (KPIs) to support data-driven business decisions.
+## Business questions
 
-🛠️ Tools & Technologies
+1. How much revenue comes from delivered orders?
+2. Which products and categories sell the most?
+3. Which customers contribute the most revenue?
+4. How do monthly sales change over time?
+5. How many customers are inactive or have never ordered?
+6. How do order statuses and cancellations affect performance?
 
-Power BI Desktop — Interactive dashboards and data visualization
+## Files
 
-SQL — Data analysis and business queries
+| File | Purpose |
+|---|---|
+| `e_commerce_project.pbix` | Power BI report |
+| `E-Commerce Sales Analytics.sql` | SQL business analysis queries |
+| `README.md` | Project documentation |
 
-DAX — Measures and KPI calculations
+## Dashboard preview
 
-Power Query — Data transformation and cleaning
+### Executive Overview
+![Executive Overview](https://github.com/user-attachments/assets/f8f71c6b-09bb-4c67-98e1-9f43fc0def6e)
 
-Data Modeling — Organizing data for analysis
+### Product Analysis
+![Product Analysis](https://github.com/user-attachments/assets/8e0b92f2-46e5-4d98-b854-a34f982b4ff9)
 
-📊 Dataset Overview
+### Customer Analysis
+![Customer Analysis](https://github.com/user-attachments/assets/bca18352-fd14-4793-8f43-db5913849bd8)
 
-The sample dataset contains:
+### Order Analysis
+![Order Analysis](https://github.com/user-attachments/assets/54a80aa8-766e-4389-87a7-8fd5615d470e)
 
-2,000 Orders
+## How to use
 
-90 Customers
+1. Download or clone this repository.
+2. Open `e_commerce_project.pbix` in Power BI Desktop.
+3. If prompted, configure the data source paths to match your local files.
+4. Open the SQL script in MySQL Workbench and ensure the database and table names match your imported schema before running queries.
+5. Validate KPI definitions and totals against the source data before using results for business decisions.
 
-38 Products
+## Data and metric notes
 
-4,967 Order Items
+- Revenue queries should consistently specify which order statuses are included.
+- Average Order Value should be calculated at the order level, not by averaging individual item prices.
+- Customer and product counts should use distinct IDs when the data model contains multiple rows per entity.
+- Dataset figures and screenshots should be refreshed if the underlying source data or report changes.
 
-📈 Dashboard Pages
+## Skills demonstrated
 
-1. Executive Overview
+SQL joins, aggregation, CTEs, window functions, KPI definition, Power Query transformation, DAX measures, data visualization, and business analysis.
 
-Total revenue and total orders
-
-Total customers and average order value
-
-Quantity sold and cancelled orders
-
-Monthly revenue trends
-
-Revenue by product category
-
-Order status distribution
-
-2. Product Analysis
-
-Total products and quantity sold
-
-Product revenue and average product price
-
-Revenue by category
-
-Top 10 products by revenue
-
-Units sold by category
-
-Products with orders
-
-3. Customer Analysis
-
-Total customers and total orders
-
-Cancellation rate and average order value
-
-Top customers by revenue
-
-Customer distribution by gender
-
-Customer order history
-
-Inactive customer analysis
-
-4. Order Analysis
-
-Total, delivered, pending, and cancelled orders
-
-Order cancellation rate
-
-Average order value
-
-Average items per order
-
-Orders above ₹10,000
-
-Daily sales trend
-
-Order status distribution
-
-✨ Key Features
-
-Interactive filters for month, category, city, gender, and order status
-
-KPI cards for monitoring business performance
-
-SQL queries using JOINs, aggregate functions, CTEs, and window functions
-
-DAX measures for business metrics
-
-Interactive charts and tables
-
-Navigation between four dashboard pages
-
-Customer, product, sales, and order analysis
-
-📁 Project Files
-
-File
-
-Description
-
-e_commerce_project.pbix
-
-Power BI dashboard
-
-E-Commerce Sales Analytics.sql
-
-SQL business analysis queries
-
-README.md
-
-Project documentation
-
-🖥️ Dashboard Preview
-### 1. Executive Overview
-<img width="998" height="666" alt="Executive Overview" src="https://github.com/user-attachments/assets/f8f71c6b-09bb-4c67-98e1-9f43fc0def6e" />
-
-### 2. Product Analysis
-<img width="1000" height="665" alt="Product Analysis" src="https://github.com/user-attachments/assets/8e0b92f2-46e5-4d98-b854-a34f982b4ff9" />
-
-### 3. Customer Analysis
-<img width="997" height="665" alt="Customer Analysis" src="https://github.com/user-attachments/assets/bca18352-fd14-4793-8f43-db5913849bd8" />
-
-### 4. Order Analysis
-<img width="997" height="665" alt="Order Analysis" src="https://github.com/user-attachments/assets/54a80aa8-766e-4389-87a7-8fd5615d470e" />
-
-🚀 How to Use
-
-Open this repository on GitHub.
-
-Download e_commerce_project.pbix.
-
-Open the file using Power BI Desktop.
-
-Explore the four dashboard pages.
-
-Use the available filters to analyze the data.
-
-To explore the SQL analysis, open E-Commerce Sales Analytics.sql in a compatible SQL editor and use the queries with the corresponding sample database.
-
-🎯 Project Objective
-
-The objective is to demonstrate practical skills in SQL-based analysis, data transformation, DAX calculations, data visualization, and interactive dashboard development.
-
-This is a portfolio project built using a sample e-commerce dataset.
-
-👤 Author
+## Author
 
 Swapnil Rathod
