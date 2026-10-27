@@ -9,10 +9,6 @@ WHERE o.order_status = 'Delivered';
 SELECT COUNT(*) AS total_orders
 FROM orders;
 
--- Q2. Total Orders
-SELECT COUNT(*) AS total_orders
-FROM orders;
-
 -- Q3. Total Customers
 SELECT COUNT(*) AS total_customers
 FROM customers;
